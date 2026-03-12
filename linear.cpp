@@ -1,3 +1,5 @@
+// write a c progranm to search a number using linear searcha and create user defined function
+
 #include<iostream>
 using namespace std;
 int main(){
