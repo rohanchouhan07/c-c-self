@@ -8,12 +8,14 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
+    
     int l=0,r=n-1;
- int mid=(l+r)/2;
- int t;
- cout<<"enter num to search";
- cin>>t;
- while(l<r){
+    int t;
+
+    cout<<"enter num to search";
+    cin>>t;
+    while(l<r){
+     int mid=(l+r)/2;
     if(arr[mid]==t){
         cout<<"num found at"<<mid;
         break;
